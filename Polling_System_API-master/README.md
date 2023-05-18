@@ -18,40 +18,7 @@ using Express, Nodejs, MongoDB.
 
 <br/>
 
-## Important Link:
 
-- **Youtube Video URL**: https://youtu.be/U9jCoAZ93MM
-- **Hosting Link**: https://polling-system-api-517c.onrender.com/
-- **Sample Postman Documentation Link**: https://documenter.getpostman.com/view/9062378/2s8YevqB89
-
-<br/>
-
-## Routes & URL
-
-- **/questions/create**
-  <p> To create a new question hit the following URL with a post request:</p>
-  https://polling-system-api-517c.onrender.com/api/v1/questions/create
-
-- **/options/:id/create**
-  <p>To create a new option for a question hit the following URL with a post request:</p>
-  https://polling-system-api-517c.onrender.com/api/v1/questions/:idOfQuestion/options/create
-
-- **/options/:id/addVote**
-  <p>To increment the count of votes on an option, hit the following URL with a get request:</p>
-  https://polling-system-api-517c.onrender.com/api/v1/options/:idOfOption/addVote
-
-- **/questions/:id**
-  <p> To view a question and it’s options, hit the following URL with a get request:</p>
-  https://polling-system-api-517c.onrender.com/api/v1/questions/:idOfQuestion
-
-- **/options/:id/delete**
-  <p> To delete an option, hit the following URL with a delete request: </p>
-  https://polling-system-api-517c.onrender.com/api/v1/options/:idOfOption/delete
-
-- **/questions/:id/delete**
-  <p> To delete a question, hit the following URL with a delete request: </p>
-  https://polling-system-api-517c.onrender.com/api/v1/questions/:idOfQuestion/delete
-  <br/>
 
 ## Tools Used
 
@@ -104,12 +71,7 @@ $ npm install npm -g
 
 1. Open terminal.
 
-2. Change the current working directory to the location where you want the cloned directory.
 
-   ```
-   $ git clone https://github.com/kartiksarwan2017/Polling_System_API
-
-   ```
 
 3. Install all the dependencies by running :
 
